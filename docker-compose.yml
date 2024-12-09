@@ -93,11 +93,8 @@ services:
       - ENABLE_NONDESTRUCTIVENPCS_MOD=${ENABLE_NONDESTRUCTIVENPCS_MOD-false}
 
     ports:
-      # VNC
       - 5902:5900
-      # NOVNC WEB
       - 5801:5800
-      # Game  
       - 24642:24642/udp
     volumes:
       # Saves go here now
